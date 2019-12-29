@@ -1,0 +1,10 @@
+li.fade-in {
+    opacity: 0;
+    animation: fadeIn .7s linear forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
